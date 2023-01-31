@@ -1,6 +1,5 @@
 package com.sogogo.bo.controller;
 
-import com.sogogo.bo.config.SimpleUserDetails;
 import com.sogogo.bo.dto.BaseResponse;
 import com.sogogo.bo.dto.LoginDto;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +38,7 @@ public class LoginController {
         try{
             Authentication authentication = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(login.getUsername(), login.getPassword()));
-            SimpleUserDetails user = (SimpleUserDetails) authentication.getPrincipal();
+            User user = (User) authentication.getPrincipal();
             Instant now = Instant.now();
             long expiry = 36000L;
 

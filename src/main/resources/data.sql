@@ -1,0 +1,1 @@
+insert into payment_method(id, name, description) values (1, 'bank', 'bank transfer');

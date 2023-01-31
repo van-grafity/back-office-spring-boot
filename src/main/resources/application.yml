@@ -12,3 +12,9 @@ jwt:
   key:
     private: classpath:rsa.private.key
     public: classpath:rsa.public.key
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+    operations-sorter: method
+
