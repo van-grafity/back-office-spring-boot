@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("changePass")
+@RequestMapping("api/v1/changePass")
 public class ChangePasswordController {
     @Autowired
     private UserRepository userRepository;

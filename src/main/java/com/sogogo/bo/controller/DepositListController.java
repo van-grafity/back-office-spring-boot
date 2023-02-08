@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("deposit/list")
+@RequestMapping("api/v1/deposit/list")
 public class DepositListController {
 
     @Autowired

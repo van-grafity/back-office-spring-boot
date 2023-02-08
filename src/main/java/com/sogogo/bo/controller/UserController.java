@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("user")
+@RequestMapping("api/v1/user")
 public class UserController {
     @Autowired
     private UserRepository userRepo;
 
-    @GetMapping("detail")
+    @GetMapping("/detail")
     public BaseResponse<UserSogogo> detail(Authentication auth){
         UserSogogo user = new UserSogogo();
         int error = 0;

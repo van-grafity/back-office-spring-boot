@@ -1,11 +1,14 @@
+server:
+  port: 8080
+
 spring:
   jpa:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://localhost:3306/sogogo-engine
-    username: root
-    password:
+    url: jdbc:mysql://172.177.184.144:3306/okplay_dev
+    username: okplay_dev
+    password: 23XrFDE6pN6c5PwH
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 jwt:

@@ -19,7 +19,7 @@ import java.util.Date;
 import static com.sogogo.bo.utils.GlobalUtils.validateUsername;
 
 @RestController
-@RequestMapping("register")
+@RequestMapping("api/v1/register")
 public class RegisterController {
     @Autowired
     private UserRepository userRepository;

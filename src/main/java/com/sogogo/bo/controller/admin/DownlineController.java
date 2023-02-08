@@ -22,7 +22,7 @@ import java.util.List;
 import static com.sogogo.bo.utils.GlobalUtils.validateUsername;
 
 @RestController
-@RequestMapping("downline")
+@RequestMapping("api/v1/downline")
 public class DownlineController {
     @Autowired
     private UserRepository userRepository;

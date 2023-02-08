@@ -18,7 +18,7 @@ import java.sql.Date;
 import java.time.Instant;
 
 @RestController
-@RequestMapping("withdraw")
+@RequestMapping("api/v1/withdraw")
 @Slf4j
 public class WithdrawController {
 

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RequestMapping("admin/dashboard")
+@RequestMapping("api/v1/admin/dashboard")
 public class DashboardController {
 
     @Autowired

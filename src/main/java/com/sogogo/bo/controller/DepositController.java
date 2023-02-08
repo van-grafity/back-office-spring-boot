@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 
 @Slf4j
 @RestController
-@RequestMapping("deposit")
+@RequestMapping("api/v1/deposit")
 public class DepositController {
     @Autowired
     private DepositRepo repo;
