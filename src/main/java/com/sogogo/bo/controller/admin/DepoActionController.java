@@ -18,7 +18,7 @@ import java.util.Date;
 
 @Slf4j
 @RestController
-@RequestMapping("api/v1//admin/deposit/action")
+@RequestMapping("admin/deposit/action")
 public class DepoActionController {
     @Autowired
     private DepositRepo depositRepo;

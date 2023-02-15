@@ -23,7 +23,7 @@ import static java.lang.String.format;
 import static java.util.stream.Collectors.joining;
 
 @RestController
-@RequestMapping("api/v1/login")
+@RequestMapping("login")
 public class LoginController {
     @Autowired
     private AuthenticationManager authenticationManager;

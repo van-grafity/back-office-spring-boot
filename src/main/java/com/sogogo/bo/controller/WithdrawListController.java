@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("api/v1/withdraw/list")
+@RequestMapping("withdraw/list")
 public class WithdrawListController {
 
     @Autowired

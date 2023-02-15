@@ -23,7 +23,7 @@ import java.util.Date;
 
 @Slf4j
 @RestController
-@RequestMapping("api/v1//admin/withdraw/action")
+@RequestMapping("admin/withdraw/action")
 public class WdActionController {
     @Autowired
     private WithdrawRepo repo;

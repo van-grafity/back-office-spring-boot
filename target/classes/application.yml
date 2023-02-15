@@ -1,10 +1,7 @@
-server:
-  port: 8080
-
 spring:
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
   datasource:
     url: jdbc:mysql://172.177.184.144:3306/okplay_dev
     username: okplay_dev
